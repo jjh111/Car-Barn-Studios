@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sticky Nav</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1><img src=http://i.imgur.com/qbJfisP.png height=60px> <br/> Dan Davis</h1>
+  </header>
+
+  <nav id="main">
+    <ul>
+      <li class="logo"><img src=http://i.imgur.com/TnPyadr.png height=40px></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="art.html">Art</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="http://www.wis.ewi.tudelft.nl/fileadmin/wis/homepages/davis/Davis_CV_20170201.pdf">CV</a></li>
+    </ul>
+  </nav>
+
+  <div class="site-wrap">
+
+    <p align="center">Dan is a PhD researcher in Learner Modeling &amp; Learning Analytics at Delft University of Technology in the Netherlands. 
+    <br>
+    <br>
+    &amp;
+    <br>
+    <br>
+    Dan is a cinephile and filmmaker.
+    </p>
+
+    <br>
+    <br>
+
+  <h2>
+  Upcoming Travel:
+  </h2>
+    <p>
+    I'll be attending LAK 2017 in Vancouver from March 11 - 17
+    </p>
+    <p>
+    There I'll be presenting a full paper, a poster, and hosting a pre-conference workshop.
+    </p>
+
+  <h2>
+  Last 10 Films I've Watched:
+  </h2>
+  <ul>
+  <li>The Salesman (2016)</li>
+  <li>Moonlight (2016)</li>
+  <li>Encounters At The End Of The World (2007)</li>
+  <li>Phoenix (2014)</li>
+  <li>The Paradise Suite (2015)</li>
+  <li>Two Days One Night (2014)</li>
+  <li>Footloose (1984)</li>
+  <li>Arrival (2016)</li>
+  <li>Somm: Into the Bottle (2015)</li>
+  <li>Zootopia (2016)</li>
+  </ul>
+
+
+</div>
+
+    
+<script>
+
+const nav = document.querySelector('#main');
+const topOfNav = nav.offsetTop;
+
+function fixNav() {
+  if (window.scrollY >= topOfNav) {
+    document.body.style.paddingTop = nav.offsetHeight + 'px';
+    document.body.classList.add('fixed-nav');
+  } else {
+    document.body.style.paddingTop = 0;
+    document.body.classList.remove('fixed-nav');
+  }
+
+}
+
+window.addEventListener('scroll', fixNav)
+
+</script>
+
+</body>
+</html>

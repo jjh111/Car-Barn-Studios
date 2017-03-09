@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sticky Nav</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1><img src=http://i.imgur.com/qbJfisP.png height=60px> <br/> Dan Davis</h1>
+  </header>
+
+  <nav id="main">
+    <ul>
+      <li class="logo"><img src=http://i.imgur.com/TnPyadr.png height=40px></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="art.html">Art</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="http://www.wis.ewi.tudelft.nl/fileadmin/wis/homepages/davis/Davis_CV_20170201.pdf">CV</a></li>
+    </ul>
+  </nav>
+
+  
+  <div class="site-wrap">
+  <h2> D (DOT) J (DOT) DAVIS (AT) TUDELFT (DOT) NL </h2>
+  </div>
+
+
+
+    
+<script>
+
+const nav = document.querySelector('#main');
+const topOfNav = nav.offsetTop;
+
+function fixNav() {
+  if (window.scrollY >= topOfNav) {
+    document.body.style.paddingTop = nav.offsetHeight + 'px';
+    document.body.classList.add('fixed-nav');
+  } else {
+    document.body.style.paddingTop = 0;
+    document.body.classList.remove('fixed-nav');
+  }
+
+}
+
+window.addEventListener('scroll', fixNav)
+
+</script>
+
+</body>
+</html>
