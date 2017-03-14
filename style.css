@@ -122,3 +122,7 @@ p.award {
 a {
     text-decoration: none;
 }
+
+:visited {
+  color: green
+}
