@@ -119,18 +119,18 @@ p.award {
   font-weight: bold;
 }
 
-/* visited link */
-a:visited {
-    color: green;
+a:link {
     text-decoration: none;
 }
 
-/* mouse over link */
-a:hover {
-    color: hotpink;
+a:visited {
+    text-decoration: none;
 }
 
-/* selected link */
+a:hover {
+    text-decoration: underline;
+}
+
 a:active {
-    color: blue;
+    text-decoration: underline;
 }
