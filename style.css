@@ -119,7 +119,7 @@ p.award {
   font-weight: bold;
 }
 
-p.title {
+a.title {
   text-decoration: none;
   background-color: yellow;
 }
