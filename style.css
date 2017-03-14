@@ -118,3 +118,19 @@ p.award {
   font-size: 80%;
   font-weight: bold;
 }
+
+/* visited link */
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
