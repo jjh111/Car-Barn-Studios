@@ -119,7 +119,7 @@ p.award {
   font-weight: bold;
 }
 
-a.pdf {
+p.title:link {
   text-decoration: none;
   background-color: yellow;
 }
