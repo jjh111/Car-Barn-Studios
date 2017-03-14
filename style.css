@@ -119,16 +119,16 @@ p.award {
   font-weight: bold;
 }
 
-a {
+a.paper {
     text-decoration: none;
 }
 
-a {
+a.paper {
     text-decoration: none;
 }
-a:link, a:visited {
+a.paper:link, a:visited {
     color: green;
 }
-a:hover {
+a.paper:hover {
     color: red;
 }
