@@ -120,6 +120,7 @@ p.award {
 }
 
 a.title {
-    text-decoration: none;
+  text-decoration: none;
+  background-color: yellow;
 }
 
