@@ -119,8 +119,24 @@ p.award {
   font-weight: bold;
 }
 
-p.title:link {
-  text-decoration: none;
-  background-color: yellow;
+/* unvisited link */
+a.pdf:link {
+    text-decoration: none;
+    color: black;
 }
 
+/* visited link */
+a.pdf:visited {
+    color: black;
+}
+
+/* mouse over link */
+a.pdf:hover {
+    color: #a8d3f0;
+    text-decoration: underline;
+}
+
+/* selected link */
+a.pdf:active {
+    color: #a8d3f0;
+}
