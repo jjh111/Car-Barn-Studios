@@ -140,3 +140,29 @@ a.pdf:hover {
 a.pdf:active {
     color: #a8d3f0;
 }
+
+
+/*////////////////////////////////*
+
+/* unvisited link */
+a.slides:link {
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 70%
+}
+
+/* visited link */
+a.slides:visited {
+    color: lightgrey;
+}
+
+/* mouse over link */
+a.slides:hover {
+    color: #a8d3f0;
+    text-decoration: underline;
+}
+
+/* selected link */
+a.slides:active {
+    color: #a8d3f0;
+}
