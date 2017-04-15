@@ -98,6 +98,29 @@ nav a {
   text-transform: uppercase;
 }
 
+/* unvisited link */
+nav a:link {
+    text-decoration: none;
+    color: white;
+}
+
+/* visited link */
+nav a:visited {
+    color: white;
+}
+
+/* mouse over link */
+nav a:hover {
+    background-color: rgba(255,255,255,0.3);
+    padding: 10px 10px;
+    transition:all 0.2s;
+}
+
+/* selected link */
+nav a:active {
+    color: #a8d3f0;
+}
+
 p.title {
   font-weight: bold;
 }
@@ -132,8 +155,9 @@ a.pdf:visited {
 
 /* mouse over link */
 a.pdf:hover {
-    color: #a8d3f0;
-    text-decoration: underline;
+    background-color: rgba(168,211,240,0.3);
+    padding: 5px 0;
+    transition:all 0.2s;
 }
 
 /* selected link */
