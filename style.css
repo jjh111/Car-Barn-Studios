@@ -196,3 +196,40 @@ a.slides:hover {
 a.slides:active {
     color: #a8d3f0;
 }
+
+.video-container {
+  position: relative;
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
+
+/*@media screen and (min-width: 1080) {
+    video {
+      vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 1079) {
+    video {
+      vertical-align: middle;
+      width: 100%;
+  }
+}*/
+
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(art/logo.png);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: 30%;
+}
+
+
