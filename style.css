@@ -36,6 +36,7 @@ header {
   display:flex;
   align-items:center;
   justify-content: center;
+  vertical-align: top;
 }
 
 h1 {
@@ -206,18 +207,6 @@ video {
   width: 100%;
 }
 
-/*@media screen and (min-width: 1080) {
-    video {
-      vertical-align: middle;
-  }
-}
-
-@media screen and (max-width: 1079) {
-    video {
-      vertical-align: middle;
-      width: 100%;
-  }
-}*/
 
 .overlay-desc {
   background: rgba(0,0,0,0);
