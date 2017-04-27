@@ -1,2 +1,2 @@
-# dan7davis.github.io
-Dan's Website
+# Car Barn Studios
+Website for the Car Barn Studios Collaborative
