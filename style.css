@@ -105,7 +105,7 @@ nav a {
 nav a:link {
     text-decoration: none;
     color: white;
-    font-family: "balloon-urw",sans-serif;
+    font-family: 'Baloo', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 120%;
@@ -282,4 +282,17 @@ video {
     0% { opacity: 0; }
     66% { opacity: 0; }
     100%   { opacity: 1; }
+}
+
+    #circle {
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+    }
+
+.colors {
+  display: flex;
+  justify-content: space-around;
 }
